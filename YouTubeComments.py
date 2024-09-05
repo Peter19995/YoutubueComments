@@ -2,14 +2,14 @@ import pyodbc
 from googleapiclient.discovery import build
 
 # Define your API key and build the YouTube service
-API_KEY = 'AIzaSyAb-wwet5h-PyyQtGB4Onm3IoO2tePg0BY'  # Replace this with your actual YouTube Data API v3 key
+API_KEY = 'Google Api key'  # Replace this with your actual YouTube Data API v3 key
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # Database credentials
-server = 'OS'
-database = 'FARMERSCHOICE'
+server = 'SERVERNAME'
+database = 'DB_NAME'
 username = 'sa'
-password = 'Peter@1490'
+password = 'Password'
 driver = '{ODBC Driver 17 for SQL Server}'
 
 
